@@ -288,7 +288,7 @@ let Inimigo = sprites.create(img`
     ...ccccccd555ddccc......
     ........cccccccc........
     `, SpriteKind.Enemy)
-Inimigo.setPosition(680, 85)
+Inimigo.setPosition(680, 90)
 game.onUpdate(function () {
     if (jogador.vx == 0) {
         if (Direction == 1) {
